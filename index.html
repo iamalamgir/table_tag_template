@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            header {
+                background-color: #669C57;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            
+            nav {
+                float: left;
+                width: 30%;
+                height: 350px; 
+                background: #697B5B;
+                padding: 20px;
+            }
+            
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            
+            article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+                height: 400px;
+            }
+            
+            section:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            footer {
+                background-color: #669C57;;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th {
+                border: 1px solid #669C57;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Template</h2>
+        </header>
+                
+        <section>
+            <nav>
+                <ul>
+                <li><a href="#">Alamgir Hossain</a></li><br>
+                <li><a href="#">Narayanganj</a></li>
+                </ul>
+            </nav>
+        
+            <article>
+                <h1>Hello ,</h1>
+                <p>
+                    This is my Template.This is my Template.
+                    This is my Template.This is my Template.
+                    This is my Template.This is my Template.
+                </p>
+                <p>
+                    This is new Web Template.This is new Web Template.
+                    This is new Web Template.This is new Web Template.
+                    This is new Web Template.This is new Web Template.
+                </p>
+
+                <br>
+
+                <table>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                    <tr>
+                        <td>Alamgir</td>
+                        <td>Hossain</td>
+                        <td>mdalamgir.pro@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Abul</td>
+                        <td>Hasnat</td>
+                        <td>abulhasnat@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Siam</td>
+                        <td>Hossain</td>
+                        <td>siamhossain@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Al-Amin</td>
+                        <td>Khan</td>
+                        <td>khan@gmail.com</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+                
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+        
+    </body>
+</html>

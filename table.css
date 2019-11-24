@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+
+.templete {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*start header*/
+#header{
+    background-color: #669C57;
+}
+
+#logo img{
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin: 0px 0px 0px 25px;
+}
+
+#logo h2{
+    font-size: 15px;
+    text-align: left;
+    margin: 20px 5px 5px 0px;
+    color: #000000;
+}
+
+#name {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+ul#menu {
+    padding: 0;
+    margin:0px 0px 0px 50px;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: #60864F;
+    font-size: 12px;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px 25px 0px 25px;
+    border: 1px solid #000000;
+}
+
+ul#menu li a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+a1{
+    background-color: #000000;
+    font-size: 12px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin:0px 0px 0px 15px;  
+}
+
+a1:hover {
+    background-color: #60864F;
+    color: #000000;
+}
+/*End header*/
+
+/*Start My Portfolio*/
+#myportfolio {
+    width: 920px;
+    height: 400px;
+    background-image: url(images/a1.jpg);
+    background-size: cover;
+}
+
+h5 {
+    margin:0px 0px 15px 30px; 
+}
+
+#myportfolio h2 {
+    margin:0px 0px 0px 30px;
+}
+
+#myportfolio p {
+    font-size: 10px;
+    margin:10px 0px 30px 30px;
+}
+
+#myportfolio a{
+    font-size: 12px;
+    color: #000000;
+    padding: 6px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    margin:0px 0px 0px 30px;
+}
+
+#myportfolio a:hover{
+    background-color: #60864F;
+    color: #FFFFFF;
+}
+/*End My Portfolio*/
+
+/*Start Service*/
+#service {
+    width: 300px;
+    height: 250px;
+}
+
+#service h2 {
+    text-align: center;
+    margin:0px 0px 15px 0px;
+}
+
+#service h3 {
+    width: 90px;
+    height: 15px;
+    margin:0px 0px 0px 260px;
+}
+
+#service p {
+    text-align: center;
+    padding:10px 20px 0px 20px;
+}
+/*End Service*/
+
+/*Start Contact*/
+#contact {
+    font-size: 20px;
+    text-align: center;
+    background-color:#3E3E3E;
+}
+
+#contact h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"] {
+    border: 1px solid #cfc5b6;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 250px;
+    float: right;
+    margin-right: 10px;
+}
+
+textarea {
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 250px;
+    border: 1px  solid  #cfc5b6;
+    float: right;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background: #669C57 none repeat scroll 0 0;
+    border: 1px  solid #FFFFFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 1px 10px;
+}
+
+input[type="submit"]:hover {
+    background: #FFF4E5;
+    color: #000;
+    border: 1px  solid #669C57;
+}
+/*End Contact*/
+
+/*Start WorkField*/
+#workfield {
+    width: 300px;
+    height: 150px;
+    background-color: #F4F4F5;
+}
+
+.work {
+    width: 200px;
+    height: 100px;
+}
+
+.work img {
+    width: 25px;
+    height: 25px;
+    margin:0px 0px 0px 0px;
+}
+
+.work h2 {
+    font-size: 15px;
+    margin:0px 0px 10px 35px;
+}
+
+.work p {
+    font-size: 8px;
+    margin:0px 0px 0px 35px;
+}
+
+.work ul li {
+    font-size: 8px;
+    margin:0px 0px 0px 45px;
+}
+/*End WorkField*/
+
+/*Start My Skill*/
+#myskill h2{
+    margin:30px 0px 10px 0px;
+}
+#list { 
+    margin: 10px 0px 20px 20px; 
+    padding: 0; 
+    list-style: none; 
+}
+
+#list li { 
+    font-style: italic;
+    color:#669C57; 
+    margin: 0;
+    padding: 0 0 5px 20px; 
+    background: url(images/tooplate_list2.png) no-repeat scroll 0 5px;  
+}
+/*End My Skill*/
+
+/*Start My Canvas*/
+#mycanvas {
+    width: 300px;
+    height: 300px;
+    background-color:#669C57;
+}
+
+#mycanvas h2{
+    text-align: center;
+    margin:20px 0px 15px 0px;
+}
+
+#mycanvas img {
+    width: 250px;
+    height: 330px;
+    margin:0px 0px 15px 5px;
+}
+/*End My Canvas*/
+
+/*Start My Cliends*/
+#myclients {
+    width: 300px;
+    height: 150px;
+}
+
+#myclients h2 {
+    text-align: center;
+    margin:10px 0px 20px 0px;
+}
+
+#myclients img {
+    width: 70px;
+    height: 40px;
+    margin:0px 0px 15px 20px;
+}
+/*End My Cliends*/
+
+/*Start Reviews*/
+#reviews {
+    width: 920px;
+    height: 300px;
+    background-color: #60864F;
+}
+
+#reviews h2 {
+    text-align: center;
+    margin:10px 0px 15px 0px;
+}
+
+#reviews h3 {
+    width: 90px;
+    height: 15px;
+    margin:0px 0px 0px 420px;
+}
+
+#reviews p {
+    text-align: center;
+    padding:10px 20px 20px 20px;
+}
+
+#reviews img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin:0px 0px 0px 410px;
+}
+
+#reviews h4 {
+    font-size: 10px;
+    text-align: center;
+    margin:0px 0px 20px 0px;
+}
+/*End Reveiws*/
+
+/*Start Team*/
+#team {
+    width: 920px;
+    height: 250px;
+    background-color: #F4F4F5;
+}
+
+#team h2 {
+    text-align: center;
+    margin:20px 0px 15px 0px;
+}
+
+#team h3 {
+    width: 90px;
+    height: 15px;
+    margin:0px 0px 10px 413px;
+}
+
+.meetteam {
+    float: left;
+}
+
+.meetteam img {
+    width: 150px;
+    height: 130px;
+    border-radius: 0px 50px 30px 50px;
+    margin: 0px 0px 0px 115px;
+}
+
+.meetteam h1 {
+    margin:0px 0px 0px 130px;
+}
+
+.meetteam h4 {
+    font-size: 12px;
+    margin:0px 0px 15px 130px;
+}
+/*End Team*/
+
+/*Start Project*/
+#project {
+    width: 920px;
+    height: 100px;
+    background-color: #60864F;
+    color:#FFFFFF;
+}
+
+#project img {
+    width: 15px;
+    height: 15px;
+}
+
+#project a{
+    font-size: 12px;
+    color: #000000;
+    padding: 6px 22px;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    margin:0px 0px 0px 750px;
+}
+
+#project a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#project p {
+    font-size: 15px;
+}
+/*End Project*/
+
+/*Start Links*/
+#links {
+    width: 920px;
+    height: 250px;
+    background-color:#3E3E3E;
+}
+
+#logo1 img{
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 0px 0px 0px 15px;
+}
+
+#logo1 h2{
+    font-size: 12px;
+    text-align: left;
+    margin: 10px 0px 50px 80px;
+    color: #000000;
+}
+
+#name1 {
+    color:#FFFFFF;
+}
+
+#logo1 p {
+    font-size: 10px;
+    color: #FFFFFF;
+    margin:0px 10px 10px 15px;
+}
+
+#social{
+    margin:0px 0px 0px 10px;
+}
+
+#social img {
+    width: 15px;
+    height: 15px;
+    margin:25px 0px 0px 5px;
+}
+
+/*Calender*/
+#calender h2 {
+    text-align: center;
+    margin:0px 0px 10px 0px;
+}
+
+/*Useful*/
+#useful h2{
+    text-align: center;
+    margin:0px 0px 10px 0px;
+}
+
+ul#link li {
+    display: inline;
+}
+
+ul#link li a {
+    display: block;
+    background-color: #60864F;
+    font-size: 12px;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px 25px 0px 25px;
+    border: 1px solid #000000;
+    margin:0px 0px 0px 20px;
+}
+
+ul#link li a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/*Touch*/
+#touch {
+    display: inline; 
+}
+
+#touch h2{
+    text-align: center;
+    margin:0px 0px 20px 0px;
+}
+
+#touch img {
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+#touch a{
+    
+    display: block;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 10px 0px;
+    text-decoration: none;
+    cursor: pointer;
+    margin:0px 0px 0px 40px;
+}
+
+#touch p {
+    font-size: 10px;
+    margin:0px 30px 0px 30px;
+}
+/*End Links*/
+
+/*Start Footer*/
+.footer {
+    width: 920px;
+    height: 40px;
+    font-size: 10px;
+    background-color: #669C57;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+/*End Footer*/
